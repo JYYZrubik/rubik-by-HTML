@@ -169,7 +169,7 @@ function ri()
 	buff.style.backgroundColor="white";
 }
 
-function up()
+function fn()
 {
 	buff.style.backgroundColor=uf.style.backgroundColor;
 	uf.style.backgroundColor=lf.style.backgroundColor;
