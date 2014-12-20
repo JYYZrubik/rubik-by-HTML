@@ -1,3 +1,6 @@
+var buff=document.getElementById("buff");
+buff.style.visibility="hidden";
+
 var ulb=document.getElementById("ulb");
 var ub=document.getElementById("ub");
 var urb=document.getElementById("urb");
@@ -129,5 +132,38 @@ function init()
 	dlb.style.backgroundColor="yellow";
 	db.style.backgroundColor="yellow";
 	drb.style.backgroundColor="yellow";
-
 }
+
+function ri()
+{
+	buff.style.backgroundColor=ur.style.backgroundColor;
+	ur.style.backgroundColor=fr.style.backgroundColor;
+	fr.style.backgroundColor=dr.style.backgroundColor;
+	dr.style.backgroundColor=br.style.backgroundColor;
+	br.style.backgroundColor=buff.style.backgroundColor;
+
+	buff.style.backgroundColor=urb.style.backgroundColor;
+	urb.style.backgroundColor=fru.style.backgroundColor;
+	fru.style.backgroundColor=drf.style.backgroundColor;
+	drf.style.backgroundColor=brd.style.backgroundColor;
+	brd.style.backgroundColor=buff.style.backgroundColor;
+
+	buff.style.backgroundColor=urf.style.backgroundColor;
+	urf.style.backgroundColor=frd.style.backgroundColor;
+	frd.style.backgroundColor=drb.style.backgroundColor;
+	drb.style.backgroundColor=bru.style.backgroundColor;
+	bru.style.backgroundColor=buff.style.backgroundColor;
+
+	buff.style.backgroundColor=ru.style.backgroundColor;
+	ru.style.backgroundColor=rf.style.backgroundColor;
+	rf.style.backgroundColor=rd.style.backgroundColor;
+	rd.style.backgroundColor=rb.style.backgroundColor;
+	rb.style.backgroundColor=buff.style.backgroundColor;
+	
+	buff.style.backgroundColor=ruf.style.backgroundColor;
+	ruf.style.backgroundColor=rdf.style.backgroundColor;
+	rdf.style.backgroundColor=rdb.style.backgroundColor;
+	rdb.style.backgroundColor=rub.style.backgroundColor;
+	rub.style.backgroundColor=buff.style.backgroundColor;
+}
+
