@@ -1,11 +1,9 @@
 var ulb=document.getElementById("ulb");
 var ub=document.getElementById("ub");
 var urb=document.getElementById("urb");
-
 var ul=document.getElementById("ul");
 var u=document.getElementById("u");
 var ur=document.getElementById("ur");
-
 var ulf=document.getElementById("ulf");
 var uf=document.getElementById("uf");
 var urf=document.getElementById("urf");
@@ -13,47 +11,39 @@ var urf=document.getElementById("urf");
 var lub=document.getElementById("lub");
 var lu=document.getElementById("lu");
 var luf=document.getElementById("luf");
-
-var flu=document.getElementById("flu");
-var fu=document.getElementById("fu");
-var fru=document.getElementById("fru");
-
-var ruf=document.getElementById("ruf");
-var ru=document.getElementById("ru");
-var rub=document.getElementById("rub");
-
-var bru=document.getElementById("bru");
-var bu=document.getElementById("bu");
-var blu=document.getElementById("blu");
-
 var lb=document.getElementById("lb");
 var l=document.getElementById("l");
 var lf=document.getElementById("lf");
-
-var fl=document.getElementById("fl");
-var f=document.getElementById("f");
-var fr=document.getElementById("fr");
-
-var rf=document.getElementById("rf");
-var r=document.getElementById("r");
-var rb=document.getElementById("rb");
-
-var br=document.getElementById("br");
-var b=document.getElementById("b");
-var bl=document.getElementById("bl");
-
 var ldb=document.getElementById("ldb");
 var ld=document.getElementById("ld");
 var ldf=document.getElementById("ldf");
 
+var flu=document.getElementById("flu");
+var fu=document.getElementById("fu");
+var fru=document.getElementById("fru");
+var fl=document.getElementById("fl");
+var f=document.getElementById("f");
+var fr=document.getElementById("fr");
 var fld=document.getElementById("fld");
 var fd=document.getElementById("fd");
 var frd=document.getElementById("frd");
 
+var ruf=document.getElementById("ruf");
+var ru=document.getElementById("ru");
+var rub=document.getElementById("rub");
+var rf=document.getElementById("rf");
+var r=document.getElementById("r");
+var rb=document.getElementById("rb");
 var rdf=document.getElementById("rdf");
 var rd=document.getElementById("rd");
 var rdb=document.getElementById("rdb");
 
+var bru=document.getElementById("bru");
+var bu=document.getElementById("bu");
+var blu=document.getElementById("blu");
+var br=document.getElementById("br");
+var b=document.getElementById("b");
+var bl=document.getElementById("bl");
 var brd=document.getElementById("brd");
 var bd=document.getElementById("bd");
 var bld=document.getElementById("bld");
@@ -61,12 +51,83 @@ var bld=document.getElementById("bld");
 var dlf=document.getElementById("dlf");
 var df=document.getElementById("df");
 var drf=document.getElementById("drf");
-
 var dl=document.getElementById("dl");
 var d=document.getElementById("d");
 var dr=document.getElementById("dr");
-
 var dlb=document.getElementById("dlb");
 var db=document.getElementById("db");
 var drb=document.getElementById("drb");
 
+function centerinit()
+{
+	r.style.backgroundColor="red";
+	l.style.backgroundColor="orange";
+	u.style.backgroundColor="white";
+	d.style.backgroundColor="yellow";
+	f.style.backgroundColor="green";
+	b.style.backgroundColor="blue";
+}
+
+function init()
+{
+	ulb.style.backgroundColor="white";
+	ub.style.backgroundColor="white";
+	urb.style.backgroundColor="white";
+	ul.style.backgroundColor="white";
+	u.style.backgroundColor="white";
+	ur.style.backgroundColor="white";
+	ulf.style.backgroundColor="white";
+	uf.style.backgroundColor="white";
+	urf.style.backgroundColor="white";
+
+	lub.style.backgroundColor="orange";
+	lu.style.backgroundColor="orange";
+	luf.style.backgroundColor="orange";
+	lb.style.backgroundColor="orange";
+	l.style.backgroundColor="orange";
+	lf.style.backgroundColor="orange";
+	ldb.style.backgroundColor="orange";
+	ld.style.backgroundColor="orange";
+	ldf.style.backgroundColor="orange";
+
+	flu.style.backgroundColor="green";
+	fu.style.backgroundColor="green";
+	fru.style.backgroundColor="green";
+	fl.style.backgroundColor="green";
+	f.style.backgroundColor="green";
+	fr.style.backgroundColor="green";
+	fld.style.backgroundColor="green";
+	fd.style.backgroundColor="green";
+	frd.style.backgroundColor="green";
+	
+	ruf.style.backgroundColor="red";
+	ru.style.backgroundColor="red";
+	rub.style.backgroundColor="red";
+	rf.style.backgroundColor="red";
+	r.style.backgroundColor="red";
+	rb.style.backgroundColor="red";
+	rdf.style.backgroundColor="red";
+	rd.style.backgroundColor="red";
+	rdb.style.backgroundColor="red";
+
+	bru.style.backgroundColor="blue";
+	bu.style.backgroundColor="blue";
+	blu.style.backgroundColor="blue";
+	br.style.backgroundColor="blue";
+	b.style.backgroundColor="blue";
+	bl.style.backgroundColor="blue";
+	brd.style.backgroundColor="blue";
+	bd.style.backgroundColor="blue";
+	bld.style.backgroundColor="blue";
+
+	dlf.style.backgroundColor="yellow";
+	df.style.backgroundColor="yellow";
+	drf.style.backgroundColor="yellow";
+	dl.style.backgroundColor="yellow";
+	d.style.backgroundColor="yellow";
+	dr.style.backgroundColor="yellow";
+	dlb.style.backgroundColor="yellow";
+	db.style.backgroundColor="yellow";
+	drb.style.backgroundColor="yellow";
+
+}
