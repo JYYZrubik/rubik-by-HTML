@@ -204,3 +204,7 @@ function fn()
 	buff.style.backgroundColor="white";
 }
 
+function up()
+{
+	
+}
