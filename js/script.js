@@ -274,3 +274,37 @@ function dw()
 	buff.style.backgroundColor="white";
 }
 
+function le()
+{
+	buff.style.backgroundColor=fl.style.backgroundColor;
+	fl.style.backgroundColor=ul.style.backgroundColor;
+	ul.style.backgroundColor=bl.style.backgroundColor;
+	bl.style.backgroundColor=dl.style.backgroundColor;
+	dl.style.backgroundColor=buff.style.backgroundColor;
+
+	buff.style.backgroundColor=flu.style.backgroundColor;
+	flu.style.backgroundColor=ulb.style.backgroundColor;
+	ulb.style.backgroundColor=bld.style.backgroundColor;
+	bld.style.backgroundColor=dlf.style.backgroundColor;
+	dlf.style.backgroundColor=buff.style.backgroundColor;
+
+	buff.style.backgroundColor=fld.style.backgroundColor;
+	fld.style.backgroundColor=ulf.style.backgroundColor;
+	ulf.style.backgroundColor=blu.style.backgroundColor;
+	blu.style.backgroundColor=dlb.style.backgroundColor;
+	dlb.style.backgroundColor=buff.style.backgroundColor;
+
+	buff.style.backgroundColor=lu.style.backgroundColor;
+	lu.style.backgroundColor=lb.style.backgroundColor;
+	lb.style.backgroundColor=ld.style.backgroundColor;
+	ld.style.backgroundColor=lf.style.backgroundColor;
+	lf.style.backgroundColor=buff.style.backgroundColor;
+	
+	buff.style.backgroundColor=luf.style.backgroundColor;
+	luf.style.backgroundColor=lub.style.backgroundColor;
+	lub.style.backgroundColor=ldb.style.backgroundColor;
+	ldb.style.backgroundColor=ldf.style.backgroundColor;
+	ldf.style.backgroundColor=buff.style.backgroundColor;
+
+	buff.style.backgroundColor="white";
+}
